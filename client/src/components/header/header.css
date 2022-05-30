@@ -13,6 +13,8 @@
     margin-bottom: 60px;
 }
 
+
+
 .headerList{
     display: flex;
     gap: 40px;
@@ -73,6 +75,7 @@
 }
 
 .date{
+    z-index: 2;
     position: absolute;
     top: 50px;
     right: 300px;
@@ -89,6 +92,7 @@
 }
 
 .options{
+    z-index: 2;
     position: absolute;
     top: 50px;
     background-color: white;
